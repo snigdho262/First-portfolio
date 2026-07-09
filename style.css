@@ -32,6 +32,20 @@ header{
     border: none;
 }
 
+
+img{
+    max-width: 100%;
+}
+
+.hero-root{
+    background-color: #fff8f3;
+    max-width: 100%;
+    margin: auto;
+}
+/*  */
+
+
+
 .cont-btn{
     font-size: 20px;
     padding: 10px 8px;
@@ -78,6 +92,7 @@ nav span{
     justify-content: space-between;
     align-items: center;
     
+    
 }
 
 div h3{
@@ -93,9 +108,28 @@ div h1{
 }
 
 div p{
-    font-weight: 400;
+    font-weight: 600;
     font-size: 18px;
     opacity: 75%;
     margin: 25px;
     margin-left: 5px;
+}
+
+
+/* about section */
+.info{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.parent-about-me{
+    background-color: #fff8f3;
+    margin: 100px 355px;
+    padding: 120px;
+    text-align: center;
+}
+
+.parent-about-me > p{
+    opacity: 50%;
 }
