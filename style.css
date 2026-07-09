@@ -11,6 +11,10 @@ nav{
 
 }
 
+body{
+    background-color:#fcf1e9;
+}
+
 header{
     background-color: antiquewhite;
 }
@@ -39,8 +43,10 @@ img{
 
 .hero-root{
     background-color: #fff8f3;
-    max-width: 100%;
-    margin: auto;
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 /*  */
 
@@ -120,7 +126,13 @@ div p{
 .info{
     display: flex;
     justify-content: center;
-    
+}
+
+.about{
+    opacity: 50%;
+}
+.me{
+    font-weight: bold;
 }
 
 .parent-about-me{
@@ -128,8 +140,143 @@ div p{
     margin: 100px 355px;
     padding: 120px;
     text-align: center;
+    box-shadow: 3px 3px 5px gray;
+    border-radius: 10px;
 }
 
 .parent-about-me > p{
     opacity: 50%;
 }
+
+
+/* What I do section */
+.what-i-do{
+    margin: 60px auto;
+    text-align: center;
+}
+.what-i-do>p{
+    padding: 40px 120px;
+    font-size: 18px;
+    color: #757575;
+}
+.what-i-do h2{
+    font-size: 35px;
+}
+.card-main{
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+    
+}
+.card2{
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    border-radius: 10px;
+}
+h4{
+    padding-top: 15px;
+}
+div div>p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.summery{
+    display: grid;
+    grid-template-columns: repeat(1, );
+}
+
+/* Summery section */
+ h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+ 
+  .columns {
+    display: flex;
+    gap: 50px;
+  }
+ 
+  .column {
+    flex: 1;
+    border-left: 2px dotted #4aa8c9;
+    padding-left: 25px;
+  }
+ 
+  .column:first-child {
+    border-left: none;
+    padding-left: 0;
+  }
+ 
+  .column h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+ 
+  .item {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+  }
+ 
+  .item h4 {
+    margin: 0 0 3px;
+    font-size: 17px;
+  }
+ 
+  .item span {
+    display: block;
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+  }
+ 
+  .item p {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.6;
+    margin: 0;
+  }
+ 
+  .cta {
+    text-align: center;
+    margin-top: 40px;
+  }
+ 
+  .cta button {
+    background: #f2711c;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* footer section */
+  footer{
+    background-color: #FFF8F3;
+    display: flex;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    padding-top: 35px;
+  }
+  .left{
+    padding: 25px;
+  }
+
+  footer form input{
+    padding: 8px 10px;
+    border: none;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 8px;
+  }
