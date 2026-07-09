@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+.background{
+    background-color: antiquewhite;
+    max-width: 1800px;
+    margin: auto;
+}
+
+/* COMMON */
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 10px 8px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+}
+
+.cont-btn{
+    font-size: 20px;
+    padding: 10px 8px;
+    margin: 25px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+
+}
+
+nav span{
+    color: #FD6E0A
+}
+
+
+/* hero section */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+div h3{
+    font-weight: semi-bold;
+    font-size: 45px;
+    opacity: 75%;
+}
+
+div h1{
+    font-weight: 700;
+    font-size: 85px;
+    
+}
+
+div p{
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 75%;
+    margin: 25px;
+    margin-left: 5px;
+}
