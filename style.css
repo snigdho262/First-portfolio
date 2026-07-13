@@ -1,66 +1,91 @@
 *{
-    padding: 0px;
     margin: 0px;
+    padding: 0px;
     font-family: "Open Sans", sans-serif;
 }
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 0;
-
-}
-
 body{
-    background-color:#fcf1e9;
+    background-color: rgb(244, 245, 241);
 }
-
-header{
-    background-color: antiquewhite;
-}
-
-.background{
-    background-color: antiquewhite;
-    max-width: 1800px;
-    margin: auto;
-}
-
-/* COMMON */
-.common-btn{
-    background-color: #FD6E0A;
-    padding: 10px 8px;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 20px;
-    color: white;
-    border: none;
-}
-
-
-img{
-    max-width: 100%;
-}
-
-.hero-root{
-    background-color: #fff8f3;
-    padding: 30px 30px 0px 150px;
+/* nav */
+.nav{
     display: flex;
+    list-style: none;
+    gap: 30px;
+    
+    color: #474747;
+    font-size: 20px;
     align-items: center;
+    cursor: pointer;
+}
+
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+span{
+    color: #FD6E0A;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    padding: 15px 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: aliceblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header{
+    background-color: #FFF8F3;
+
+}
+
+
+/* banner */
+.banner{
+    display: flex;
     justify-content: space-between;
 }
-/*  */
-
-
-
-.cont-btn{
-    font-size: 20px;
-    padding: 10px 8px;
-    margin: 25px;
-    background-color: antiquewhite;
-    border-radius: 10px;
+.banner-content{
+    margin-top: 150px;
+}
+.banner-content h5{
+    font-size: 45px;
+    color: #474747;
+    padding-top: 5px;
+}
+.banner-content h2{
+    font-size: 85px;
     font-weight: bold;
+    padding-top: 5px;
+}
+.banner-content p{
+    color: #757575;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.banner-content .btn{
+    margin-top: 15px;
+}
+.banner-content .cnt-btn{
+    padding: 13px 40px;
+    cursor: pointer;
+    background-color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700;
     color: #FD6E0A;
-    border: 1px solid #FD6E0A;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .container{
@@ -68,215 +93,85 @@ img{
     margin: auto;
 }
 
-ul{
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
 
-ul li a{
-    text-decoration: none;
-}
-
-.logo{
-    font-weight: bold;
-    font-size: 32px;
-
-}
-
-nav span{
-    color: #FD6E0A
-}
-
-
-/* hero section */
-
+/* Hero Section */
 .hero-section{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-}
-
-div h3{
-    font-weight: semi-bold;
-    font-size: 45px;
-    opacity: 75%;
-}
-
-div h1{
-    font-weight: 700;
-    font-size: 85px;
-    
-}
-
-div p{
-    font-weight: 600;
-    font-size: 18px;
-    opacity: 75%;
-    margin: 25px;
-    margin-left: 5px;
-}
-
-
-/* about section */
-.info{
-    display: flex;
-    justify-content: center;
-}
-
-.about{
-    opacity: 50%;
-}
-.me{
-    font-weight: bold;
-}
-
-.parent-about-me{
-    background-color: #fff8f3;
-    margin: 100px 355px;
-    padding: 120px;
-    text-align: center;
-    box-shadow: 3px 3px 5px gray;
-    border-radius: 10px;
-}
-
-.parent-about-me > p{
-    opacity: 50%;
-}
-
-
-/* What I do section */
-.what-i-do{
-    margin: 60px auto;
+    margin-top: 150px;
+    background-color: #FFF8F3;
+    border-radius: 15px;
     text-align: center;
 }
-.what-i-do>p{
-    padding: 40px 120px;
+
+.abt-me{
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.abt-me-p{
     font-size: 18px;
     color: #757575;
+    padding: 15px 150px;
 }
+
+.abt-list{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    justify-content: center;
+    padding: 0 0 100px; 
+}
+/* list */
+.abt-list h4{
+    font-size: 20px;
+    color: #757575;
+}
+.abt-list p{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
+}
+
+/* What I do Section */
+.what-i-do-section{
+    margin-top: 150px;
+}
+
 .what-i-do h2{
     font-size: 35px;
+    font-weight: bold;
+    text-align: center;
 }
-.card-main{
-    display: flex;
-    margin: 10px;
-    gap: 20px;
-    
-}
-.card2{
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 5px;
-    border-radius: 10px;
-}
-h4{
-    padding-top: 15px;
-}
-div div>p{
+.what-i-do p{
+    text-align: center;
+    font-size: 18px;
     color: #757575;
-    font-size: 16px;
-    font-weight: 400;
+    padding: 25px 150px;
 }
 
-.summery{
-    display: grid;
-    grid-template-columns: repeat(1, );
-}
-
-/* Summery section */
- h2 {
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 50px;
-  }
- 
-  .columns {
+/* cards */
+.cards{
     display: flex;
-    gap: 50px;
-  }
- 
-  .column {
-    flex: 1;
-    border-left: 2px dotted #4aa8c9;
-    padding-left: 25px;
-  }
- 
-  .column:first-child {
-    border-left: none;
-    padding-left: 0;
-  }
- 
-  .column h3 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
- 
-  .item {
-    padding-bottom: 20px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-  }
- 
-  .item h4 {
-    margin: 0 0 3px;
-    font-size: 17px;
-  }
- 
-  .item span {
-    display: block;
-    font-size: 13px;
-    color: #777;
-    margin-bottom: 8px;
-  }
- 
-  .item p {
-    font-size: 14px;
-    color: #888;
-    line-height: 1.6;
-    margin: 0;
-  }
- 
-  .cta {
-    text-align: center;
-    margin-top: 40px;
-  }
- 
-  .cta button {
-    background: #f2711c;
-    color: #fff;
-    border: none;
-    padding: 12px 28px;
-    font-size: 15px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  /* footer section */
-  footer{
-    background-color: #FFF8F3;
-    display: flex;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
-    padding-top: 35px;
-  }
-  .left{
+    gap: 25px;
     padding: 25px;
-  }
-
-  footer form input{
-    padding: 8px 10px;
-    border: none;
-    width: 100%;
-    background-color: white;
+}
+.card{
     border-radius: 10px;
-    display: block;
-    margin-bottom: 8px;
-  }
+    border-radius: 10px;
+    padding: 35px 20px;
+    background-color: #ffff;
+}
+.card h5{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.card p{
+    font-size: 16px;
+    color: #757575;
+    padding: 25px 0px;
+}
+
+/* A summary of My Resume */
+.summary{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
